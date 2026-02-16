@@ -1,13 +1,17 @@
-# Sample Hardhat Project
+# HashRewards
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+HashRewards is a privacy-first quest engine built on Monad.
 
-Try running some of the following tasks:
+Users complete quests and earn points. Each action generates an encrypted receipt whose hash is stored on-chain.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
-```
+## Contract
+
+Monad Testnet  
+Address: 0x71065d406B5Ee090A98AE00ef197a23Bf9cD1b64
+
+## Stack
+
+- Solidity 0.8.28
+- Hardhat v2
+- Ethers v6
+- TypeScript
